@@ -192,6 +192,21 @@ a{
   height: 386px;
 }
 
+.card .btn a{
+  color: #1E0E62;
+}
+
+.testimonial-content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  padding: 20px;
+  gap: 100px;
+  width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (max-width:576px) {
   .banner {
     display: flex;
@@ -252,6 +267,10 @@ a{
   .card img{
     width: 360px;
   }
+
+.testimonial-content{
+  grid-template-columns: 1fr;
+}
 
 }
 
