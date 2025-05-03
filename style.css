@@ -207,6 +207,12 @@ a{
   margin-right: auto;
 }
 
+.team-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
 @media screen and (max-width:576px) {
   .banner {
     display: flex;
@@ -325,6 +331,11 @@ a{
 
 .card img{
   width: 600px;
+}
+
+.testimonial-content{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
 }
 
 }
