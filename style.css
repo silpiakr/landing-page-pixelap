@@ -61,11 +61,11 @@ a{
   background-color: white;
   width: 300px;
   padding: 15px;
-  /* bottom: 211px; */
+  top: 60px;
   line-height: 10px;
   box-shadow: 2px 2px 5px gray;
   border-radius: 10px;
-  margin-left: -50px;
+  margin-left: -120px;
   margin-bottom: -30px;
   position: relative;
   z-index: 3;
@@ -89,7 +89,6 @@ a{
   width: 260px;
   padding: 15px;
   text-align: center;
-  /* bottom: 211px; */
   box-shadow: 2px 2px 5px gray;
   border-radius: 10px;
   margin-left: -60px;
@@ -303,6 +302,7 @@ a{
   }
 
   .top-box {
+    top: 20px;
     bottom: 0px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -329,6 +329,7 @@ a{
 
 .testimonial-content{
   grid-template-columns: 1fr;
+  width: 420px;
 }
 
 .team-section{
@@ -396,8 +397,8 @@ a{
 }
 
 .testimonial-content{
-  grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
+  grid-template-columns: 1fr;
+  width: 960px;
 }
 
 .team-section{
