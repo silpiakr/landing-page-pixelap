@@ -20,8 +20,8 @@ a{
   text-decoration: none;
   color: #fff;
 }
-.border-color {
-  border: 0px 2px 2px 0px solid rgba(255, 102, 0, 1);
+.brend-color {
+  color: rgba(255, 102, 0, 1);
 }
 
 .hidden-items {
@@ -265,7 +265,7 @@ a{
 
 }
 }
-
+/* 
 @media screen and (max-width: 1024px) {
   .banner {
     display: flex;
@@ -296,4 +296,4 @@ a{
     margin-top: -40px;
   }
 
-}
+} */
