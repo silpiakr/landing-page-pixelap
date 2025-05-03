@@ -213,6 +213,59 @@ a{
   gap: 20px;
 }
 
+.news-letter{
+  background-image: url("../assets/handshake.jpg"), radial-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  text-align: center;
+  background-blend-mode: overlay;
+  max-height: 442px;
+  border-radius: 16px;
+ 
+}
+
+.news-letter-content{
+  padding: 64px 48px;
+  margin: 24px 0px;
+}
+.form{
+  margin: 32px 0px;
+}
+.input{
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin: 20px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15) ;
+  border-radius: 8px;
+  width: 100%;
+
+}
+.submit{
+  background: rgba(255, 102, 0, 1);
+  color: #fff;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 20px;
+  line-height: 23px;
+  letter-spacing: 0%;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15) ;
+  border-radius: 8px;
+
+}
+
+.newsletter{
+  display: grid;
+  grid-template-columns: 400px 800px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
 @media screen and (max-width:576px) {
   .banner {
     display: flex;
@@ -278,6 +331,15 @@ a{
   grid-template-columns: 1fr;
 }
 
+.team-section{
+  grid-template-columns: 1fr;
+}
+
+.newsletter{
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -336,6 +398,14 @@ a{
 .testimonial-content{
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
+}
+
+.team-section{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.newsletter{
+  grid-template-columns: 300px 500px;
 }
 
 }
